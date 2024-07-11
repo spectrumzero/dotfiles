@@ -79,8 +79,9 @@ function Color-List($str)
   echo $itemList | Format-Wide -AutoSize # 格式化输出
 }
 
+# use terminal file manager "yazi"
 Set-Alias yz yazi
-
+# 配置当前工作目录随着yy的遍历而即时更新
 function yy
 {
   $tmp = [System.IO.Path]::GetTempFileName()
