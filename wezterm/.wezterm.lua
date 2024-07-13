@@ -89,7 +89,7 @@ config.font = wezterm.font_with_fallback({
 	"EnvyCodeR Nerd Font",
 	"CaskaydiaCove Nerd Font Mono",
 	"Hack Nerd Font Mono",
-	"华文新魏",
+	"华文仿宋",
 })
 
 --透明度
