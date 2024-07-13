@@ -6,6 +6,13 @@ local config = wezterm.config_builder()
 
 -- This is where you actually apply your config choices
 
+-- 启动时最大化
+local mux = wezterm.mux
+wezterm.on("gui-startup", function(cmd)
+	local tab, pane, window = mux.spawn_window(cmd or {})
+	window:gui_window():maximize()
+end)
+
 -- 默认的shell
 config.default_prog = { "pwsh.exe", "-NoLogo" }
 
@@ -148,9 +155,10 @@ config.colors = {
 }
 
 -- 初始化大小
-config.initial_cols = 100
-config.initial_rows = 20
--- 与窗口的距离
+config.initial_cols = 60
+config.initial_rows = 30
+
+-- 内边距
 config.window_padding = {
 	left = 0,
 	right = 0,
@@ -158,8 +166,6 @@ config.window_padding = {
 	bottom = 0,
 }
 
--- 将窗口打开居中显示
--- ???
 -- 允许拖动边框调整
 config.window_decorations = "RESIZE"
 
