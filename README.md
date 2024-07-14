@@ -2,7 +2,7 @@
 
 This repo includes some fancy and useful coding tools that I use in my daily programming. Let me introduce them briefly to you.
 
-[fastfetch](https://github.com/fastfetch-cli/fastfetch?tab=readme-ov-file): Similar to `neofectch`, but much faster.
+[fastfetch](https://github.com/fastfetch-cli/fastfetch?tab=readme-ov-file): Similar to `neofetch`, but much faster.
 
 [starship](https://github.com/starship/starship): I use it to config my CLI prompt.
 
