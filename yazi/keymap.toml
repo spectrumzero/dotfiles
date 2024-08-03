@@ -1,4 +1,5 @@
 # C:/Users/admin/AppData/Roaming/yazi/config/keymap.toml
+# ~/.config/yazi/keymap.toml
 [manager]
 prepend_keymap = [
         {on = ["<Enter>"],run = "enter",desc = "enter"},

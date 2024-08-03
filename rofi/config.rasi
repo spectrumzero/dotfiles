@@ -1,0 +1,23 @@
+/* ~/.config/rofi/config.rasi */
+@theme "Arc-Dark"
+
+configuration {
+
+
+modes: "window,drun,run,ssh";
+font: "CaskaydiaCove Nerd Font Mono 15";
+fixed-num-lines: true;
+show-icons: true;
+drun-display-format: "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";
+/*	icon-theme: ;*/
+click-to-exit: true;
+max-history-size: 50;
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
