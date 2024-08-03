@@ -1,4 +1,3 @@
--- ~/.wezterm.lua
 -- Pull in the wezterm API
 local wezterm = require("wezterm")
 
@@ -8,14 +7,17 @@ local config = wezterm.config_builder()
 -- This is where you actually apply your config choices
 
 -- 启动时最大化
-local mux = wezterm.mux
-wezterm.on("gui-startup", function(cmd)
-	local tab, pane, window = mux.spawn_window(cmd or {})
-	window:gui_window():maximize()
-end)
+-- local mux = wezterm.mux
+-- wezterm.on("gui-startup", function(cmd)
+-- 	local tab, pane, window = mux.spawn_window(cmd or {})
+-- 	window:gui_window():maximize()
+-- end)
 
--- 默认的shell
-config.default_prog = { "pwsh.exe", "-NoLogo" }
+-- 默认的shell，注意这里应该是用户级的fish，不是系统级的。配置文件配置的是用户级的，所以这里也是用户级的shell
+config.default_prog = { "/usr/bin/fish" }
+
+-- shell in windows terminal
+-- config.default_prog = { "pwsh.exe", "-NoLogo" }
 
 -- 光标
 -- 设置光标为条状
@@ -89,9 +91,11 @@ config.color_scheme = "Tokyo Night"
 config.font = wezterm.font_with_fallback({
 	"EnvyCodeR Nerd Font",
 	"CaskaydiaCove Nerd Font Mono",
-	"Hack Nerd Font Mono",
 	"华文仿宋",
 })
+
+--字体大小
+config.font_size = 14
 
 --透明度
 config.window_background_opacity = 0.96
@@ -103,7 +107,7 @@ config.window_frame = {
 
 	-- The size of the font in the tab bar.
 	-- Default to 10.0 on Windows but 12.0 on other systems
-	font_size = 10.0,
+	font_size = 12.0,
 
 	-- The overall background color of the tab bar when
 	-- the window is focused
@@ -168,7 +172,7 @@ config.window_padding = {
 }
 
 -- 允许拖动边框调整
-config.window_decorations = "RESIZE"
+config.window_decorations = "NONE"
 
 --全屏切换快捷键(shift+CTRL+n)
 config.keys = {
