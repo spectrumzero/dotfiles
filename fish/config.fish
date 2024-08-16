@@ -30,6 +30,14 @@ set -x http_proxy http://127.0.0.1:7897
 set -x https_proxy http://127.0.0.1:7897
 set -x all_proxy socks5://127.0.0.1:7897
 
+# Integrate fzf. After setting up shell integration as below, you can use the following key-bindings in fish.
+# `ctrl+t`: paste the selected files and directories onto the command line.
+# `ctrl+r`: paste the selected commands from commands history onto the command line.
+# `alt+c`: cd into the selected directory.
+#
+# btw, use `alt+jk` or `alt+np`(in the shell opened by neovim) to move cursor when selecting.
+fzf --fish | source
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
