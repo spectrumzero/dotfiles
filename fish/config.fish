@@ -1,7 +1,7 @@
 # ~/.config/fish/config.fish
 
 # $PATH (append)
-# set variable
+# Set variable
 set -x JAVA_HOME /usr/lib/jvm/default
 set -x IDEA_HOME /opt/intellij-idea-ultimate-edition
 # Append them to the default path;
@@ -17,6 +17,9 @@ alias vi="nvim"
 alias glog="git log --oneline"
 alias yz="yazi"
 alias rof="rofi -show drun"
+alias lyh="learnyouhtml"
+# open a html file in the default browser directly
+alias op="xdg-open"
 
 # function
 function yy
