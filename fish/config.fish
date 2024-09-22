@@ -4,6 +4,7 @@
 # Set variable
 set -x JAVA_HOME /usr/lib/jvm/default
 set -x IDEA_HOME /opt/intellij-idea-ultimate-edition
+set -x NVIM ~/.config/nvim/
 # Append them to the default path;
 set -x PATH $JAVA_HOME/bin $IDEA_HOME/bin $PATH
 
@@ -20,6 +21,7 @@ alias rof="rofi -show drun"
 alias lyh="learnyouhtml"
 # open a html file in the default browser directly
 alias op="xdg-open"
+alias tr="tree"
 
 # function
 function yy
