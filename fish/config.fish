@@ -5,8 +5,15 @@
 set -x JAVA_HOME /usr/lib/jvm/default
 set -x IDEA_HOME /opt/intellij-idea-ultimate-edition
 set -x NVIM ~/.config/nvim/
-# Append them to the default path;
+set -x SWAP ~/.local/state/nvim/swap/
+# use IME
+set -x XMODIFIERS '@im=fcitx'
+set -x GTK_IM_MODULE fcitx
+set -x QT_IM_MODULE fcitx
+
+# Append variables to the default path;
 set -x PATH $JAVA_HOME/bin $IDEA_HOME/bin $PATH
+
 
 # set alias
 alias lsl="ls -1 --group-directories-first -a"
