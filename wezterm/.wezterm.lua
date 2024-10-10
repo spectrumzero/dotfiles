@@ -95,7 +95,7 @@ config.font = wezterm.font_with_fallback({
 })
 
 --字体大小
-config.font_size = 14
+config.font_size = 15
 
 --透明度
 config.window_background_opacity = 0.96
@@ -182,6 +182,10 @@ config.keys = {
 		action = wezterm.action.ToggleFullScreen,
 	},
 }
+
+-- enable ime
+config.use_ime = true
+config.xim_im_name = "fcitx"
 
 -- and finally, return the configuration to wezterm
 return config
