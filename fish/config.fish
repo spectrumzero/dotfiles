@@ -4,6 +4,7 @@
 # Set variable
 set -x JAVA_HOME /usr/lib/jvm/default
 set -x IDEA_HOME /opt/intellij-idea-ultimate-edition
+set -x LC ~/lazycoding/leetcode-grinding/source/cpp/
 set -x NVIM ~/.config/nvim/
 set -x SWAP ~/.local/state/nvim/swap/
 # use IME
@@ -27,7 +28,7 @@ alias yz="yazi"
 alias rof="rofi -show drun"
 alias lyh="learnyouhtml"
 # open a html file in the default browser directly
-alias op="xdg-open"
+alias chr="google-chrome-stable"
 alias tr="tree"
 
 # function
