@@ -1,0 +1,40 @@
+{
+  "git.openRepositoryInParentFolders": "never",
+  "cmake.showOptionsMovedNotification": false,
+  "editor.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
+  "editor.fontSize": 16,
+  "debug.console.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
+  "editor.inlineSuggest.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
+  "editor.experimentalInlineEdit.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
+  "editor.codeLensFontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
+  "editor.inlayHints.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
+  "scm.inputFontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
+  "terminal.integrated.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "cmake.automaticReconfigure": false,
+  "cmake.configureOnEdit": false,
+  "cmake.configureOnOpen": false,
+  "cmake.enableAutomaticKitScan": false,
+  "cmake.parseBuildDiagnostics": false,
+  "cmake.saveBeforeBuild": false,
+  "cmake.showNotAllDocumentsSavedQuestion": false,
+  "cmake.showSystemKits": false,
+  "cmake.useCMakePresets": "never",
+  "workbench.panel.defaultView": "terminal",
+  "workbench.settings.applyToAllProfiles": [],
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "apc.imports": [],
+  "vscode_custom_css.imports": [
+    "",
+    "file:///home/spectrieu/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+  ],
+  "animations.Enabled": true,
+  "apc.activityBar": {},
+  "workbench.activityBar.location": "hidden"
+}
