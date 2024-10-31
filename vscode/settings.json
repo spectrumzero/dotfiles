@@ -25,16 +25,24 @@
   "cmake.showNotAllDocumentsSavedQuestion": false,
   "cmake.showSystemKits": false,
   "cmake.useCMakePresets": "never",
-  "workbench.panel.defaultView": "terminal",
-  "workbench.settings.applyToAllProfiles": [],
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#f4dbd6",
+    "terminalCursor.foreground": "#f4dbd6"
+  },
   "terminal.integrated.defaultProfile.linux": "fish",
   "workbench.colorTheme": "Catppuccin Macchiato",
-  "apc.imports": [],
   "vscode_custom_css.imports": [
     "",
     "file:///home/spectrieu/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
   ],
   "animations.Enabled": true,
-  "apc.activityBar": {},
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "hidden",
+  "explorer.confirmDelete": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "animations.CursorAnimationOptions": {
+    "TrailLength": 8
+  },
+  "animations.CursorAnimation": true,
+  "vim.cursorStylePerMode.normal": "block",
+  "editor.cursorBlinking": "solid"
 }
