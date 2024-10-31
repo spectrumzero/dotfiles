@@ -1,5 +1,13 @@
 # ~/.config/fish/config.fish
 
+set -g fish_greeting ""
+
+function fish_greeting
+    set_color magenta
+    echo "🔯Hi, Spectrumzero!"
+    set_color normal
+end
+
 # $PATH (append)
 # Set variable
 set -x JAVA_HOME /usr/lib/jvm/default
@@ -14,7 +22,6 @@ set -x QT_IM_MODULE fcitx
 
 # Append variables to the default path;
 set -x PATH $JAVA_HOME/bin $IDEA_HOME/bin $PATH
-
 
 # set alias
 alias lsl="ls -1 --group-directories-first -a"
