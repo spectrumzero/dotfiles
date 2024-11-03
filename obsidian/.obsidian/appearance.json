@@ -1,0 +1,10 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Catppuccin",
+  "interfaceFontFamily": "",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "custom"
+  ]
+}

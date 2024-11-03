@@ -1,0 +1,14 @@
+{
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "showRibbon": true,
+  "vimMode": true,
+  "spellcheck": false,
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "Dissertation",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "ieee",
+      "format": "pandoc"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "literature note",
+      "outputPathTemplate": "Dissertation/{{citekey}}.md",
+      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "Template.md",
+      "cslStyle": "american-sociological-association"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note"
+}
