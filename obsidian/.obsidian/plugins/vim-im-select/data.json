@@ -1,0 +1,8 @@
+{
+  "defaultIM": "keyboard-us-dvorak",
+  "obtainCmd": "~/getCurrentInputMethod",
+  "switchCmd": "/usr/bin/fcitx5-remote -s {im}",
+  "windowsDefaultIM": "",
+  "windowsObtainCmd": "",
+  "windowsSwitchCmd": ""
+}

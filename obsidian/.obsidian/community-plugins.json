@@ -5,7 +5,8 @@
   "obsidian-admonition",
   "obsidian-vimrc-support",
   "vim-yank-highlight",
+  "vim-toggle",
   "vim-im-select",
   "obsidian-git",
-  "vim-toggle"
+  "obsidian-pandoc"
 ]

@@ -2,7 +2,7 @@
   "showLineNumber": false,
   "readableLineLength": true,
   "showRibbon": true,
-  "vimMode": true,
+  "vimMode": false,
   "spellcheck": false,
   "promptDelete": false,
   "pdfExportSettings": {

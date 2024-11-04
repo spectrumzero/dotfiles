@@ -1,11 +1,11 @@
 {
-  "pathToPandoc": "",
+  "pathToPandoc": "/usr/bin/pandoc",
   "tooltipDelay": 400,
   "zoteroGroups": [
     {
       "id": 1,
       "name": "My Library",
-      "lastUpdate": 1730637780904
+      "lastUpdate": 1730740039137
     }
   ],
   "renderCitations": true,

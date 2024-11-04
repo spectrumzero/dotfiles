@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1bb09a0c6f8a8590",
+        "id": "934209d3aef1d061",
         "type": "tabs",
         "children": [
           {
-            "id": "06e19a5d49644263",
+            "id": "ce7fbaa1f414d261",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template.md",
+                "file": "fragments/混寝小组评议.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Template"
+              "title": "混寝小组评议"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template.md",
+                "file": "Dissertation/0-Guide of Atkinson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Template"
+              "title": "Backlinks for 0-Guide of Atkinson"
             }
           },
           {
@@ -124,11 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Template.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Template"
+              "title": "Outline"
             }
           },
           {
@@ -155,7 +153,7 @@
             }
           },
           {
-            "id": "7f0b8d24b856cc40",
+            "id": "442a5c5be2762db9",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -163,35 +161,63 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "9b708e136ae4785b",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 396
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "vim-toggle:Toggle Vim Mode": false
+      "vim-toggle:Toggle Vim Mode": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1932ea6524175e66",
+  "active": "ce7fbaa1f414d261",
   "lastOpenFiles": [
-    "写作1：essays/人类学汇报",
-    "Dissertation/0-Guide of Atkinson.md",
     "Template.md",
-    "写作2：fragments/混寝小组评议.md",
-    "写作1：essays/开题报告",
-    "写作1：essays/儿童问题",
+    "Dissertation/chap0-Guide of Atkinson.md",
+    "fragments/混寝小组评议.md",
+    "essays/开题报告/报告.md",
+    "essays/开题报告/参考文献.md",
+    "fragments/ref.bib",
+    "fragments/混寝小组评议.md~",
+    "fragments/ref.lib~",
+    "fragments/ref.lib",
+    "fragments/reference.lib.md",
+    "essays/人类学汇报/评论文章一.md",
+    "Dissertation/0-Guide of Atkinson.docx",
+    "494.md",
+    "test2.md",
+    "this is.md",
+    "test5.md",
+    "essays/人类学汇报/参考文献.md",
+    "essays/儿童问题/参考文献.md",
+    "essays/儿童问题/8000结课作业.md",
+    "essays/人类学汇报/微型民族志.md",
+    "essays/人类学汇报/评论文章二.md",
+    "essays/人类学汇报/课程反馈.md",
+    "essays/人类学汇报",
+    "essays/开题报告",
+    "essays/儿童问题",
     "Dissertation/序言：布迪厄的未竟事业.md",
     "test.md",
     "atkinsonBourdieuGeneticStructuralism2016.md",
@@ -200,16 +226,9 @@
     "AtkinsonsCritiqueBourdieu.md",
     "Bourdieu.md",
     "2024-10-31.md",
-    "写作1：essays",
-    "写作2：fragments",
+    "essays",
     "template/template.md",
-    "template",
-    "草稿.md",
-    "fallj/Untitled.md",
-    "fallj",
-    "c.md",
     "Untitled.canvas",
-    "Untitled 1.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
   ]
