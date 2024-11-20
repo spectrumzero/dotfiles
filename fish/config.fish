@@ -15,6 +15,7 @@ set -x IDEA_HOME /opt/intellij-idea-ultimate-edition
 set -x LC ~/lazycoding/leetcode-grinding/source/cpp/
 set -x NVIM ~/.config/nvim/
 set -x SWAP ~/.local/state/nvim/swap/
+set -x CODE ~/.config/Code/User/
 # use IME
 set -x XMODIFIERS '@im=fcitx'
 set -x GTK_IM_MODULE fcitx
@@ -50,7 +51,6 @@ end
 
 # starship startup
 starship init fish | source
-
 # proxy settings
 set -x http_proxy http://127.0.0.1:7897
 set -x https_proxy http://127.0.0.1:7897

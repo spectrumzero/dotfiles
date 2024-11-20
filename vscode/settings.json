@@ -44,5 +44,13 @@
   },
   "animations.CursorAnimation": true,
   "vim.cursorStylePerMode.normal": "block",
-  "editor.cursorBlinking": "solid"
+  "editor.cursorBlinking": "solid",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.formatOnSave": true
 }
