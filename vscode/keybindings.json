@@ -1,17 +1,12 @@
 [
   {
-    "key": "ctrl+/",
-    "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
     "key": "ctrl+w",
     "command": "workbench.action.closeActiveEditor"
   },
   {
-    "key": "ctrl+n",
-    "command": "-extension.vim_ctrl+n",
-    "when": "editorTextFocus && vim.active && vim.use<C-n> && !inDebugRepl || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+    "key": "ctrl+/",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
   },
   {
     "key": "ctrl+b",
@@ -22,23 +17,35 @@
     "command": "workbench.action.togglePanel"
   },
   {
-    "key": "capslock",
-    "command": "extension.vim_escape",
-    "when": "vim.mode != 'Normal' && vim.active"
-  },
-  {
-    "key": "ctrl+n",
-    "command": "selectNextSuggestion",
-    "when": "suggestWidgetVisible"
-  },
-  {
-    "key": "ctrl+p",
-    "command": "selectPreviousSuggestion",
-    "when": "suggestWidgetVisible"
-  },
-  {
     "key": "ctrl+w",
-    "command": "deleteWordLeft",
-    "when": "textInputFocus"
+    "command": "vscode-neovim.send",
+    "args": "<C-w>",
+    "when": "neovim.mode == insert"
+  },
+  {
+    "key": "capslock",
+    "command": "vscode-neovim.send",
+    "args": "<Esc>",
+    "when": "editorTextFocus && neovim.mode == insert || neovim.mode == visual"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "cursorMove",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 12
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "cursorMove",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 12
+    },
+    "when": "editorTextFocus"
   }
 ]
