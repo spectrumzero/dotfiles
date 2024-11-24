@@ -37,6 +37,7 @@ alias rof="rofi -show drun"
 alias lyh="learnyouhtml"
 # open a html file in the default browser directly
 alias chr="google-chrome-stable"
+alias ss="static-server"
 alias tr="tree"
 
 # function
