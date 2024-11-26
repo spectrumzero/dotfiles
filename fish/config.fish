@@ -39,6 +39,8 @@ alias lyh="learnyouhtml"
 alias chr="google-chrome-stable"
 alias ss="static-server"
 alias tr="tree"
+alias fk="fuck"
+alias zd="zoxide"
 
 # function
 function yy
@@ -68,3 +70,6 @@ fzf --fish | source
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
+
+thefuck --alias | source
+zoxide init fish | source
