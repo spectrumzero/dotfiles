@@ -40,7 +40,7 @@ alias chr="google-chrome-stable"
 alias ss="static-server"
 alias tr="tree"
 alias fk="fuck"
-alias zd="zoxide"
+alias zd="z"
 
 # function
 function yy
