@@ -31,7 +31,6 @@ alias cl="clear"
 # start a new independent process of neovide
 alias neo="setsid neovide"
 alias vi="nvim"
-alias glog="git log --oneline"
 alias yz="yazi"
 alias rof="rofi -show drun"
 alias lyh="learnyouhtml"
@@ -41,6 +40,12 @@ alias ss="static-server"
 alias tr="tree"
 alias fk="fuck"
 alias zd="z"
+# git alias
+alias gs="git status"
+alias ga="git add ."
+alias gd="git diff"
+alias glog="git log --oneline"
+alias gref="git reflog"
 
 # function
 function yy
