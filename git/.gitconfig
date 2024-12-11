@@ -1,0 +1,22 @@
+; ~/.gitconfig
+
+[http]
+	sslVerify = true
+[user]
+	email = lmhspecter@gmail.com
+	name = Spectrumzero
+[core]
+	editor = nvim
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[init]
+	defaultBranch = main
+[alias]
+	st = status
+	br = branch
+	ci = commit
+  co = checkout
+	con = config

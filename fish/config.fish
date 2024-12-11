@@ -41,9 +41,6 @@ alias tr="tree"
 alias fk="fuck"
 alias zd="z"
 # git alias
-alias gs="git status"
-alias ga="git add ."
-alias gd="git diff"
 alias glog="git log --oneline"
 alias gref="git reflog"
 
