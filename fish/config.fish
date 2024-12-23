@@ -56,10 +56,11 @@ end
 
 # starship startup
 starship init fish | source
+
 # proxy settings
-set -x http_proxy http://127.0.0.1:7897
-set -x https_proxy http://127.0.0.1:7897
-set -x all_proxy socks5://127.0.0.1:7897
+set -x http_proxy http://127.0.0.1:7890
+set -x https_proxy http://127.0.0.1:7890
+set -x all_proxy http://127.0.0.1:7890
 
 # Integrate fzf. After setting up shell integration as below, you can use the following key-bindings in fish.
 # `ctrl+t`: paste the selected files and directories onto the command line.
