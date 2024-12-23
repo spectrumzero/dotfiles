@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "970a3997c9e8127d",
+    "id": "20f4ff7548d119ff",
     "type": "split",
     "children": [
       {
-        "id": "934209d3aef1d061",
+        "id": "b74710582a96d207",
         "type": "tabs",
         "children": [
           {
-            "id": "ce7fbaa1f414d261",
+            "id": "d0f88a76b774bfd5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fragments/混寝小组评议.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "混寝小组评议"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "763a090af4c1912e",
+    "id": "27dfcdbbee17cb50",
     "type": "split",
     "children": [
       {
-        "id": "055c6edbd6199708",
+        "id": "aef607c593f0d1f8",
         "type": "tabs",
         "children": [
           {
-            "id": "1932ea6524175e66",
+            "id": "22fc94a466c6570e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +43,7 @@
             }
           },
           {
-            "id": "47f45c30ac36d8a2",
+            "id": "95d178fc18caee7c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +60,7 @@
             }
           },
           {
-            "id": "0b33b35fc4232c25",
+            "id": "67cd4fdeeba3cb02",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,23 +73,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.01103591918945
+    "width": 300
   },
   "right": {
-    "id": "744c4e27ee851a0d",
+    "id": "86dda3b631ff8f51",
     "type": "split",
     "children": [
       {
-        "id": "ee5e0e364afee3fa",
+        "id": "8b6f626615a4c93d",
         "type": "tabs",
         "children": [
           {
-            "id": "fde38bfe1d662dee",
+            "id": "04e59b5ffb98b97e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dissertation/0-Guide of Atkinson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,11 +98,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 0-Guide of Atkinson"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "9ceddded118c918f",
+            "id": "b86365ce0e3a7a27",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -120,17 +115,7 @@
             }
           },
           {
-            "id": "bc4279115c7abc9d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "95ccc9ea651e86fe",
+            "id": "319f14aaf94dddb4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -143,41 +128,21 @@
             }
           },
           {
-            "id": "8d52e132dc496733",
+            "id": "6f882675823972cb",
             "type": "leaf",
             "state": {
-              "type": "ReferenceListView",
+              "type": "outline",
               "state": {},
-              "icon": "quote-glyph",
-              "title": "References"
-            }
-          },
-          {
-            "id": "442a5c5be2762db9",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "9b708e136ae4785b",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 396
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,45 +156,8 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce7fbaa1f414d261",
+  "active": "d0f88a76b774bfd5",
   "lastOpenFiles": [
-    "Template.md",
-    "Dissertation/chap0-Guide of Atkinson.md",
-    "fragments/混寝小组评议.md",
-    "essays/开题报告/报告.md",
-    "essays/开题报告/参考文献.md",
-    "fragments/ref.bib",
-    "fragments/混寝小组评议.md~",
-    "fragments/ref.lib~",
-    "fragments/ref.lib",
-    "fragments/reference.lib.md",
-    "essays/人类学汇报/评论文章一.md",
-    "Dissertation/0-Guide of Atkinson.docx",
-    "494.md",
-    "test2.md",
-    "this is.md",
-    "test5.md",
-    "essays/人类学汇报/参考文献.md",
-    "essays/儿童问题/参考文献.md",
-    "essays/儿童问题/8000结课作业.md",
-    "essays/人类学汇报/微型民族志.md",
-    "essays/人类学汇报/评论文章二.md",
-    "essays/人类学汇报/课程反馈.md",
-    "essays/人类学汇报",
-    "essays/开题报告",
-    "essays/儿童问题",
-    "Dissertation/序言：布迪厄的未竟事业.md",
-    "test.md",
-    "atkinsonBourdieuGeneticStructuralism2016.md",
-    "Dissertation",
-    "FaYaLiShanDa KeYeFualexandrekojeveZhu;JiangZhiHuiYi.HeiGeErDaoDu2021.md",
-    "AtkinsonsCritiqueBourdieu.md",
-    "Bourdieu.md",
-    "2024-10-31.md",
-    "essays",
-    "template/template.md",
-    "Untitled.canvas",
-    "Untitled 1.canvas",
-    "Untitled 2.canvas"
+    "log-1.md"
   ]
 }
