@@ -4,20 +4,8 @@ local wezterm = require("wezterm")
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
--- This is where you actually apply your config choices
-
--- 启动时最大化
--- local mux = wezterm.mux
--- wezterm.on("gui-startup", function(cmd)
--- 	local tab, pane, window = mux.spawn_window(cmd or {})
--- 	window:gui_window():maximize()
--- end)
-
 -- 默认的shell，注意这里应该是用户级的fish，不是系统级的。配置文件配置的是用户级的，所以这里也是用户级的shell
 config.default_prog = { "/usr/bin/fish" }
-
--- shell in windows terminal
--- config.default_prog = { "pwsh.exe", "-NoLogo" }
 
 -- 光标
 -- 设置光标为条状
@@ -28,63 +16,6 @@ config.cursor_blink_ease_out = "Constant"
 --设置光标闪烁速度
 config.cursor_blink_rate = 500
 
--- 可以定义自己的颜色
-config.colors = {
-	--	-- The default text color
-	--	-- 默认文本颜色
-	-- foreground = "silver",
-	-- The default background color
-	--
-	-- 默认背景颜色
-	-- background = "#282828",
-	--	-- 光标前景色(光标下的文本色)
-	--	cursor_fg = "#ffffff",
-	--	-- 光标背景色（光标色）
-	--	cursor_bg = "#ffffff",
-	--	cursor_border = "#ffffff",
-	--
-	--	--用于配置命令、提示符等的颜色
-	--	-- 普通颜色
-	--	ansi = {
-	--		-- 黑色
-	--		"black",
-	--		-- 红色
-	--		"#e06c75",
-	--		-- 绿色
-	--		"#77995e",
-	--		-- 黄色
-	--		"#ffffff",
-	--		-- 蓝色
-	--		"#4f9ea8",
-	--		-- 紫色
-	--		"purple",
-	--		-- 青色
-	--		"#4f9fa9",
-	--		-- 白色
-	--		"silver",
-	--	},
-	--	-- 明亮颜色
-	--	brights = {
-	--		-- 黑色
-	--		"black",
-	--		-- 红色
-	--		"#e06c75",
-	--		-- 绿色
-	--		"#77995e",
-	--		-- 黄色
-	--		"#ffffff",
-	--		-- 蓝色
-	--		"#61afef",
-	--		-- 紫色
-	--		"#a685dd",
-	--		-- 青色
-	--		"#4f9fa9",
-	--		-- 白色
-	--		"silver",
-	--	},
-}
-
---但还是主要采用颜色主题。一般情况下，scheme的优先级高于color
 config.color_scheme = "Tokyo Night"
 
 -- 字体
@@ -173,15 +104,6 @@ config.window_padding = {
 
 -- 允许拖动边框调整
 config.window_decorations = "NONE"
-
---全屏切换快捷键(shift+CTRL+n)
-config.keys = {
-	{
-		key = "n",
-		mods = "SHIFT|CTRL",
-		action = wezterm.action.ToggleFullScreen,
-	},
-}
 
 -- enable ime
 config.use_ime = true
