@@ -14,7 +14,6 @@
     "workbench.action.tasks.configureTaskRunner",
     "workbench.action.tasks.runTask"
   ],
-  "editor.minimap.enabled": false,
   "workbench.startupEditor": "none",
   "cmake.automaticReconfigure": false,
   "cmake.configureOnEdit": false,
@@ -55,5 +54,46 @@
   "editor.formatOnSave": true,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
-  }
+  },
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "todohighlight.keywords": [
+    {
+      "text": "FIX:",
+      "color": "black",
+      "backgroundColor": "yellow"
+    },
+    {
+      "text": "NOTE:",
+      "color": "black",
+      "backgroundColor": "#33ff86"
+    },
+    {
+      "text": "TODO:",
+      "color": "black",
+      "backgroundColor": "#0db9d7"
+    },
+    {
+      "text": "WARNING:",
+      "color": "black",
+      "backgroundColor": "#ffc777"
+    },
+    {
+      "text": "PERF:",
+      "color": "black",
+      "backgroundColor": "#c099ff"
+    },
+    {
+      "text": "HACK:",
+      "color": "black",
+      "backgroundColor": "#ffc777"
+    },
+    {
+      "text": "NEXT:",
+      "color": "black",
+      "backgroundColor": "#8aadf4"
+    }
+  ]
 }
