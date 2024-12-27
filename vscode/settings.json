@@ -28,11 +28,10 @@
     "editorCursor.foreground": "#f4dbd6",
     "terminalCursor.foreground": "#f4dbd6"
   },
-  "terminal.integrated.defaultProfile.linux": "fish",
   "workbench.colorTheme": "Catppuccin Macchiato",
   "vscode_custom_css.imports": [
     "",
-    "file:///home/spectrieu/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+    "file:///c:/Users/lmh22/scoop/apps/vscode/1.96.2/data/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
   ],
   "animations.Enabled": true,
   "workbench.activityBar.location": "hidden",
@@ -95,5 +94,7 @@
       "color": "black",
       "backgroundColor": "#8aadf4"
     }
-  ]
+  ],
+  "animations.Install-Method": "Custom CSS and JS",
+  "C_Cpp.intelliSenseEngine": "disabled"
 }
