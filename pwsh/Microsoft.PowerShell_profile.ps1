@@ -7,6 +7,8 @@ set-Location E:/lazycoding
 # set env
 $env:DATA = "C:/Users/lmh22/AppData/Local/"
 $env:NVIM = "C:/Users/lmh22/AppData/Local/nvim"
+$env:VSCODE = "C:/Users/lmh22/scoop/apps/vscode/1.96.2/data/user-data/User"
+$env:SCOOP = "C:/Users/lmh22/scoop/apps"
 
 # 使用utf8编码
 $OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding

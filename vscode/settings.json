@@ -1,20 +1,9 @@
 {
+  // git
   "git.openRepositoryInParentFolders": "never",
+
+  // cmake
   "cmake.showOptionsMovedNotification": false,
-  "editor.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
-  "editor.fontSize": 16,
-  "debug.console.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
-  "editor.inlineSuggest.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
-  "editor.experimentalInlineEdit.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
-  "editor.codeLensFontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
-  "editor.inlayHints.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
-  "scm.inputFontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
-  "terminal.integrated.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
-  "cmake.pinnedCommands": [
-    "workbench.action.tasks.configureTaskRunner",
-    "workbench.action.tasks.runTask"
-  ],
-  "workbench.startupEditor": "none",
   "cmake.automaticReconfigure": false,
   "cmake.configureOnEdit": false,
   "cmake.configureOnOpen": false,
@@ -24,40 +13,55 @@
   "cmake.showNotAllDocumentsSavedQuestion": false,
   "cmake.showSystemKits": false,
   "cmake.useCMakePresets": "never",
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+
+  // editor
+  "workbench.startupEditor": "none",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#f4dbd6",
     "terminalCursor.foreground": "#f4dbd6"
   },
   "workbench.colorTheme": "Catppuccin Macchiato",
-  "vscode_custom_css.imports": [
-    "",
-    "file:///c:/Users/lmh22/scoop/apps/vscode/1.96.2/data/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
-  ],
-  "animations.Enabled": true,
   "workbench.activityBar.location": "hidden",
-  "explorer.confirmDelete": false,
+  "editor.fontFamily": "\"Cascadia Mono\"",
+  "editor.fontSize": 16,
   "editor.cursorSmoothCaretAnimation": "on",
-  "animations.CursorAnimationOptions": {
-    "TrailLength": 8
-  },
-  "animations.CursorAnimation": true,
-  "vim.cursorStylePerMode.normal": "block",
   "editor.cursorBlinking": "solid",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "editor.formatOnSave": true,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
+
+  // terminal
+  "terminal.integrated.defaultProfile.linux": "fish",
+
+  // animations
+  "animations.Enabled": true,
+  "vscode_custom_css.imports": [
+    "",
+    "file:///c:/Users/lmh22/scoop/apps/vscode/1.96.2/data/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+  ],
+  "animations.CursorAnimationOptions": {
+    "TrailLength": 8
+  },
+  "animations.CursorAnimation": true,
+
+  // others
+  "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.minimap.renderCharacters": false,
-  "editor.minimap.enabled": false,
   "todohighlight.keywords": [
     {
       "text": "FIX:",
@@ -94,7 +98,6 @@
       "color": "black",
       "backgroundColor": "#8aadf4"
     }
-  ],
-  "animations.Install-Method": "Custom CSS and JS",
-  "C_Cpp.intelliSenseEngine": "disabled"
+  ]
 }
+
