@@ -43,6 +43,8 @@ alias zd="z"
 # git alias
 alias glog="git log --oneline"
 alias gref="git reflog"
+# optical character recognition
+alias ocr="ocrmypdf -l chi_sim"
 
 # function
 function yy
