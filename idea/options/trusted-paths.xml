@@ -1,0 +1,25 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/lazycoding/Spring/code/ch2-ex2" value="true" />
+        <entry key="$USER_HOME$/lazycoding/Spring/code/sq-ch2-ex1" value="true" />
+        <entry key="$USER_HOME$/lazycoding/Spring/code/sq-ch2-ex2" value="true" />
+        <entry key="$USER_HOME$/lazycoding/java" value="true" />
+        <entry key="$USER_HOME$/lazycoding/java-hello" value="true" />
+        <entry key="$USER_HOME$/lazycoding/java-hello/world" value="true" />
+        <entry key="$USER_HOME$/lazycoding/myspring/buildtools" value="true" />
+        <entry key="$USER_HOME$/lazycoding/myspring/code/ch2-ex1" value="true" />
+        <entry key="$USER_HOME$/lazycoding/myspring/code/ch2-ex2" value="true" />
+        <entry key="$USER_HOME$/lazycoding/myspring/code/untitled" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/lazycoding" />
+      </list>
+    </option>
+  </component>
+</application>

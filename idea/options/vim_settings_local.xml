@@ -1,0 +1,178 @@
+<application>
+  <component name="VimJumpsSettings">
+    <project id="java-hello-810b0fa8">
+      <jump line="0" column="0" filename="$USER_HOME$/lazycoding/java-hello/hello.class" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/lazycoding/java-hello/hello.java" protocol="file" />
+    </project>
+    <project id="world-d84f926b">
+      <jump line="0" column="0" filename="$USER_HOME$/lazycoding/java-hello/world/src/Main.java" protocol="file" />
+      <jump line="3" column="0" filename="$USER_HOME$/lazycoding/java-hello/world/src/Main.java" protocol="file" />
+      <jump line="4" column="4" filename="$USER_HOME$/lazycoding/java-hello/world/src/Main.java" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/lazycoding/java-hello/world/src/Main.java" protocol="file" />
+      <jump line="5" column="13" filename="$USER_HOME$/lazycoding/java-hello/world/out/production/world/Main.class" protocol="file" />
+      <jump line="9" column="32" filename="$USER_HOME$/lazycoding/java-hello/world/out/production/world/Main.class" protocol="file" />
+      <jump line="14" column="0" filename="$USER_HOME$/lazycoding/java-hello/world/out/production/world/Main.class" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/lazycoding/java-hello/world/world.iml" protocol="file" />
+      <jump line="6" column="13" filename="$USER_HOME$/lazycoding/java-hello/world/world.iml" protocol="file" />
+      <jump line="9" column="13" filename="$USER_HOME$/lazycoding/java-hello/world/world.iml" protocol="file" />
+      <jump line="8" column="0" filename="$USER_HOME$/lazycoding/java-hello/world/out/production/world/Main.class" protocol="file" />
+      <jump line="13" column="0" filename="$USER_HOME$/lazycoding/java-hello/world/out/production/world/Main.class" protocol="file" />
+      <jump line="10" column="8" filename="$USER_HOME$/lazycoding/java-hello/world/world.iml" protocol="file" />
+      <jump line="5" column="0" filename="$USER_HOME$/lazycoding/java-hello/world/src/Main.java" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/lazycoding/java-hello/world/.idea/.gitignore" protocol="file" />
+      <jump line="4" column="13" filename="$USER_HOME$/lazycoding/java-hello/world/.idea/.gitignore" protocol="file" />
+    </project>
+    <project id="Core Java for the Impatient-bb288923">
+      <jump line="21" column="11" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="76" column="0" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="86" column="19" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="89" column="0" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="139" column="0" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="31" column="0" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="729" column="0" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="8" column="0" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="19" column="18" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="16" column="20" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="11" column="7" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="6" column="23" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="7" column="14" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="12" column="23" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="18" column="11" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="57" column="0" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="0" column="20" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="17" column="18" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="10" column="4" filename="$USER_HOME$/lazycoding/java/cities.txt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/lazycoding/java/hello.txt" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/lazycoding/java/hello.txt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/lazycoding/java/ch01/sec01/HelloWorld.java" protocol="file" />
+      <jump line="6" column="2" filename="$USER_HOME$/lazycoding/java/ch01/sec01/HelloWorld.java" protocol="file" />
+      <jump line="4" column="13" filename="$USER_HOME$/lazycoding/java/ch01/sec01/HelloWorld.java" protocol="file" />
+      <jump line="10" column="0" filename="$USER_HOME$/lazycoding/java/ch01/sec01/HelloWorld.java" protocol="file" />
+      <jump line="3" column="0" filename="$USER_HOME$/lazycoding/java/ch01/sec01/HelloWorld.java" protocol="file" />
+    </project>
+    <project id="buildtools-a4c6c22">
+      <jump line="4" column="0" filename="$USER_HOME$/lazycoding/myspring/buildtools/src/test/java/main/Main.java" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/lazycoding/myspring/buildtools/src/test/java/main/Main.java" protocol="file" />
+      <jump line="16" column="0" filename="$USER_HOME$/lazycoding/myspring/buildtools/pom.xml" protocol="file" />
+      <jump line="4" column="0" filename="$USER_HOME$/lazycoding/myspring/buildtools/pom.xml" protocol="file" />
+      <jump line="10" column="0" filename="$USER_HOME$/lazycoding/myspring/buildtools/pom.xml" protocol="file" />
+      <jump line="17" column="0" filename="$USER_HOME$/lazycoding/myspring/buildtools/pom.xml" protocol="file" />
+      <jump line="13" column="32" filename="$USER_HOME$/lazycoding/myspring/buildtools/pom.xml" protocol="file" />
+      <jump line="9" column="3" filename="$USER_HOME$/lazycoding/myspring/buildtools/pom.xml" protocol="file" />
+    </project>
+    <project id="gsws_ap_b_ex1-a4c6c22">
+      <jump line="18" column="15" filename="$USER_HOME$/lazycoding/myspring/buildtools/pom.xml" protocol="file" />
+      <jump line="19" column="46" filename="$USER_HOME$/lazycoding/myspring/buildtools/pom.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/lazycoding/myspring/buildtools/pom.xml" protocol="file" />
+      <jump line="11" column="19" filename="$USER_HOME$/lazycoding/myspring/buildtools/pom.xml" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/lazycoding/myspring/buildtools/src/test/java/main/Main.java" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/lazycoding/myspring/buildtools/src/main/java/org/example/Main.java" protocol="file" />
+    </project>
+    <project id="ch2-ex1-4b969911">
+      <jump line="5" column="0" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/pom.xml" protocol="file" />
+      <jump line="15" column="0" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/pom.xml" protocol="file" />
+      <jump line="16" column="0" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/pom.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/pom.xml" protocol="file" />
+      <jump line="10" column="15" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/pom.xml" protocol="file" />
+      <jump line="7" column="15" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/pom.xml" protocol="file" />
+      <jump line="0" column="19" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/src/main/java/org/example/Main.java" protocol="file" />
+      <jump line="2" column="18" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/src/main/java/org/example/Main.java" protocol="file" />
+      <jump line="4" column="36" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/src/main/java/org/example/Main.java" protocol="file" />
+      <jump line="4" column="0" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/src/main/java/org/example/Parrot.java" protocol="file" />
+      <jump line="2" column="20" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/src/main/java/org/example/Parrot.java" protocol="file" />
+      <jump line="3" column="6" filename="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/src/main/java/org/example/Parrot.java" protocol="file" />
+    </project>
+    <project id="untitled-266b1ab2">
+      <jump line="0" column="0" filename="$USER_HOME$/lazycoding/myspring/code/untitled/src/main/java/org/example/Main.java" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/lazycoding/myspring/buildtools/pom.xml" timestamp="1744095337108">
+        <mark key="&quot;" line="11" column="19" />
+        <mark key="'" line="19" column="46" />
+        <mark key="[" line="10" column="17" />
+        <mark key="]" line="11" column="20" />
+        <mark key="^" line="11" column="20" />
+        <mark key="." line="11" column="19" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/java/cities.txt" timestamp="1743758080906">
+        <mark key="'" line="57" column="0" />
+        <mark key="[" line="10" column="17" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/java-hello/world/world.iml" timestamp="1724493062711">
+        <mark key="&quot;" line="10" column="8" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/java-hello/hello.class" timestamp="1724492274288">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="/" timestamp="1724493114621">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/java/ch01/sec01/HelloWorld.java" timestamp="1743758253482">
+        <mark key="'" line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/src/main/java/org/example/Main.java" timestamp="1744095043045">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/pom.xml" timestamp="1744095341063">
+        <mark key="&quot;" line="10" column="15" />
+        <mark key="'" line="16" column="0" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/java-hello/hello.java" timestamp="1724492274298">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/java-hello/world/src/Main.java" timestamp="1724493126801">
+        <mark key="&quot;" line="5" column="0" />
+        <mark key="[" line="2" column="3" />
+        <mark key="]" line="2" column="8" />
+        <mark key="." line="2" column="7" />
+        <mark key="^" line="2" column="8" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/myspring/buildtools/src/test/java/main/Main.java" timestamp="1744095337112">
+        <mark key="&quot;" line="6" column="0" />
+        <mark key="'" line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/java-hello/world/out/production/world/Main.class" timestamp="1724493061276">
+        <mark key="&quot;" line="13" column="0" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/myspring/buildtools/src/main/java/org/example/Main.java" timestamp="1744095337099">
+        <mark key="&quot;" line="6" column="0" />
+        <mark key="'" line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/myspring/code/ch2-ex1/src/main/java/org/example/Parrot.java" timestamp="1744095576248">
+        <mark key="[" line="3" column="7" />
+        <mark key="]" line="3" column="7" />
+        <mark key="^" line="3" column="7" />
+        <mark key="." line="3" column="6" />
+      </file>
+      <file name="$USER_HOME$/lazycoding/java-hello/world/.idea/.gitignore" timestamp="1724493126031">
+        <mark key="&quot;" line="4" column="13" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkhlbGxvIHdvcmxkISIpOwo=</text>
+      </register>
+      <register name="&quot;" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkhlbGxvIHdvcmxkISIpOwo=</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64" />
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-offset encoding="base64" />
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

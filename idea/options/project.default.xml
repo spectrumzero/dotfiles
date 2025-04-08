@@ -1,0 +1,37 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+      <component name="VcsDirectoryMappings" defaultProject="true" />
+      <component name="WindowStateProjectService">
+        <state x="563" y="138" width="785" height="814" key="#HTTP_Proxy" timestamp="1743751006077">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="563" y="138" width="785" height="814" key="#HTTP_Proxy/0.0.1920.1080" timestamp="1743751006077" />
+        <state x="0" y="-40" width="1920" height="1120" key="SettingsEditor" timestamp="1743756321291">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="0" y="-40" width="1920" height="1120" key="SettingsEditor/0.0.1920.1080" timestamp="1743756321291" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.22477064" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

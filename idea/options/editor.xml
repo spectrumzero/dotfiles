@@ -1,0 +1,16 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="1" />
+    <option name="AUTO_POPUP_PARAMETER_INFO" value="false" />
+    <option name="JAVADOC_INFO_DELAY" value="1000" />
+    <option name="COMPLETION_CASE_SENSITIVE" value="1" />
+  </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="IS_ALL_SOFTWRAPS_SHOWN" value="true" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+  </component>
+  <component name="InlineCompletionOnboarding">
+    <option name="onboardingFinished" value="true" />
+  </component>
+</application>
