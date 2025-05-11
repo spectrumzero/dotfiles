@@ -36,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -73,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "86dda3b631ff8f51",
@@ -153,11 +155,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "vim-toggle:Toggle Vim Mode": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "d0f88a76b774bfd5",
   "lastOpenFiles": [
+    "Untitled.md",
+    "test.md",
+    "Test.md",
+    "hh.md",
+    "ttt/xixix.md",
+    "qq.md",
+    "ttt",
     "log-1.md"
   ]
 }

@@ -8,5 +8,8 @@
   "vim-toggle",
   "vim-im-select",
   "obsidian-git",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "obsidian-hider",
+  "obsidian-outliner",
+  "templater-obsidian"
 ]
