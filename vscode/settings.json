@@ -12,7 +12,7 @@
   "terminal.integrated.fontFamily": "\"CaskaydiaCove Nerd Font Mono\"",
   "cmake.pinnedCommands": [
     "workbench.action.tasks.configureTaskRunner",
-    "workbench.action.tasks.runTask"
+    "workbench.action.tasks.runTask",
   ],
   "workbench.startupEditor": "none",
   "cmake.automaticReconfigure": false,
@@ -26,34 +26,34 @@
   "cmake.useCMakePresets": "never",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#f4dbd6",
-    "terminalCursor.foreground": "#f4dbd6"
+    "terminalCursor.foreground": "#f4dbd6",
   },
   "terminal.integrated.defaultProfile.linux": "fish",
-  "workbench.colorTheme": "Catppuccin Macchiato",
+  "workbench.colorTheme": "Tokyo Night Storm",
   "vscode_custom_css.imports": [
     "",
-    "file:///home/spectrieu/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+    "file:///home/spectrieu/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js",
   ],
   "animations.Enabled": true,
   "workbench.activityBar.location": "hidden",
   "explorer.confirmDelete": false,
   "editor.cursorSmoothCaretAnimation": "on",
   "animations.CursorAnimationOptions": {
-    "TrailLength": 8
+    "TrailLength": 8,
   },
   "animations.CursorAnimation": true,
   "vim.cursorStylePerMode.normal": "block",
   "editor.cursorBlinking": "solid",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
+    "editor.defaultFormatter": "ms-vscode.cpptools",
   },
   "editor.formatOnSave": true,
   "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
+    "asvetliakov.vscode-neovim": 1,
   },
   "explorer.confirmDragAndDrop": false,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -63,38 +63,53 @@
     {
       "text": "FIX:",
       "color": "black",
-      "backgroundColor": "yellow"
+      "backgroundColor": "yellow",
     },
     {
       "text": "NOTE:",
       "color": "black",
-      "backgroundColor": "#33ff86"
+      "backgroundColor": "#33ff86",
     },
     {
       "text": "TODO:",
       "color": "black",
-      "backgroundColor": "#0db9d7"
+      "backgroundColor": "#0db9d7",
     },
     {
       "text": "WARNING:",
       "color": "black",
-      "backgroundColor": "#ffc777"
+      "backgroundColor": "#ffc777",
     },
     {
       "text": "PERF:",
       "color": "black",
-      "backgroundColor": "#c099ff"
+      "backgroundColor": "#c099ff",
     },
     {
       "text": "HACK:",
       "color": "black",
-      "backgroundColor": "#ffc777"
+      "backgroundColor": "#ffc777",
     },
     {
       "text": "NEXT:",
       "color": "black",
-      "backgroundColor": "#8aadf4"
-    }
+      "backgroundColor": "#8aadf4",
+    },
   ],
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "claudeCode.preferredLocation": "panel",
+  "hediet.vscode-drawio.resizeImages": null,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "python.terminal.activateEnvironment": false,
+  "terminal.integrated.initialHint": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.localEchoLatencyThreshold": -1,
+  "editor.editContext": false,
+  "chat.viewSessions.orientation": "stacked",
 }

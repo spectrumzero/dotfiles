@@ -1,32 +1,42 @@
 [
   {
     "key": "ctrl+w",
-    "command": "workbench.action.closeActiveEditor"
+    "command": "workbench.action.closeActiveEditor",
   },
   {
     "key": "ctrl+/",
     "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
+    "when": "terminal.active",
   },
   {
     "key": "ctrl+b",
-    "command": "workbench.action.toggleSidebarVisibility"
+    "command": "workbench.action.toggleSidebarVisibility",
   },
   {
     "key": "ctrl+j",
-    "command": "workbench.action.togglePanel"
+    "command": "workbench.action.togglePanel",
   },
   {
     "key": "ctrl+w",
     "command": "vscode-neovim.send",
     "args": "<C-w>",
-    "when": "neovim.mode == insert"
+    "when": "neovim.mode == insert",
   },
   {
     "key": "capslock",
     "command": "vscode-neovim.send",
     "args": "<Esc>",
-    "when": "editorTextFocus && neovim.mode == insert || neovim.mode == visual"
+    "when": "editorTextFocus && neovim.mode == insert || neovim.mode == visual",
+  },
+  {
+    "key": "capslock",
+    "command": "workbench.action.closeQuickOpen",
+    "when": "inQuickOpen",
+  },
+  {
+    "key": "capslock",
+    "command": "closeFindWidget",
+    "when": "editorFocus && findWidgetVisible",
   },
   {
     "key": "ctrl+u",
@@ -34,9 +44,9 @@
     "args": {
       "to": "up",
       "by": "line",
-      "value": 12
+      "value": 12,
     },
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "ctrl+d",
@@ -44,21 +54,62 @@
     "args": {
       "to": "down",
       "by": "line",
-      "value": 12
+      "value": 12,
     },
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "ctrl+f",
-    "command": "-vscode-neovim.ctrl-f"
+    "command": "-vscode-neovim.ctrl-f",
   },
   {
     "key": "ctrl+f",
     "command": "-vscode-neovim.send",
-    "when": "editorTextFocus && neovim.init && neovim.mode == insert"
+    "when": "editorTextFocus && neovim.init && neovim.mode == insert",
   },
   {
     "key": "ctrl+f",
-    "command": "actions.find"
-  }
+    "command": "actions.find",
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "-workbench.action.chat.open",
+    "when": "!chatSetupDisabledInWorkspace && !chatSetupHidden",
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "workbench.action.focusFirstEditorGroup",
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled",
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled",
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "workbench.action.quickOpen",
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "workbench.panel.chat",
+    "when": "workbench.panel.chat.view.copilot.active",
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.gotoSymbol",
+    "when": "!accessibilityHelpIsShown && !accessibleViewIsShown",
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.showAllSymbols",
+  },
+  {
+    "key": "ctrl+r",
+    "command": "workbench.action.openRecent",
+  },
 ]
